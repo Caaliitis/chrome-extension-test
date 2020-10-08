@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Getting Started building chrome Extensions</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid main">
+    <input type="hidden" name="apiKey" id="apiKey">
+    <form id="keyForm">
+        <div class="form-group">
+            <label for="key">Add key</label>
+            <input class="form-control" id="key" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="submitKey">Submit</button>
+    </form>
+    <form id="startForm" style="display:none;">
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" id="submitStart">Start marking objects!</button>
+        </div>
+    </form>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugin.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
